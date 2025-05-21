@@ -4,7 +4,7 @@
         <mj-preview>
             Participa en el sorteo de dos entradas completando el formulario antes del 1 de septiembre
         </mj-preview>
-
+   
         <mj-attributes>
             <mj-text font-family="Helvetica, Arial, sans-serif"/>
             <mj-button font-family="Helvetica, Arial, sans-serif" background-color="#e60000"
@@ -16,15 +16,16 @@
 
     <mj-body>
         <!-- Ponemos cabecera de imagen -->
-        <mj-section background-color="#FFFFFF" padding="20px">
-            <mj-column>
+      <mj-wrapper border="1px solid #e60000">  
+      <mj-section background-color="#FFFFFF" padding="0px">
+            <mj-column padding="0px">
                 <mj-image src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_mail_2Ruedas_2024_expositores.jpg" 
-                alt="Feria 2 Ruedas" fluid-on-mobile="true" />
+                alt="Feria 2 Ruedas" fluid-on-mobile="true" padding="0px" width="600px"/>
             </mj-column>
         </mj-section>
 
         <!-- Sorteo -->
-        <mj-section background-color="#ffffff" padding="20px">
+        <mj-section background-color="#ffffff">
             <mj-column>
                 <mj-text align="center" font-size="22px" font-weight="bold" color="#333333">
                     ¡Sorteamos 2 entradas para el GP de Motociclismo de Cheste!
@@ -40,7 +41,10 @@
 
         <!-- Info + botonera -->
         <mj-section background-color="#ffffff" padding="10px 20px">
+            
             <mj-column>
+                    <mj-divider border-color="#e60000" border-width="1px" />
+
                 <mj-text font-size="12px" color="#555555">
                     Solo tienes que rellenar el formulario de inscripción antes del <strong>1 de septiembre</strong>
                     y entrarás en el sorteo de dos entradas doble para el Gran Premio de Cheste. ¡Vamos!
@@ -86,5 +90,6 @@
                 </mj-text>
             </mj-column>
         </mj-section>
+        </mj-wrapper>
     </mj-body>
 </mjml>
