@@ -1,0 +1,114 @@
+<mjml>
+    <mj-head>
+        <mj-breakpoint width="320px" />
+        
+        <mj-style>
+
+            .shadow img {
+
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+
+            border-radius: 4px;
+            }
+
+           
+
+            
+      </mj-style>
+    </mj-head>
+    <mj-body>
+
+    <mj-section background-color="#c33434">
+        <mj-column>
+             <mj-text align="center"
+                    font-style="italic"
+                    font-size="30px"
+                    font-weight="bold"
+                    font-family="Arial"
+                    color="#FFFFFF">
+                        2 RUEDAS - FERIA VALENCIA
+                </mj-text> 
+        </mj-column>
+    </mj-section>
+        
+        <mj-section background-color="#fafafa">
+            <mj-column >
+                <mj-image css-class="shadow" src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_mail_2Ruedas_2024_expositores.jpg" alt="prueba" />
+            </mj-column>
+
+        </mj-section>
+
+        <mj-section background-color="#fafafa">
+        <mj-column width="600px">
+   <mj-divider border-width="1px" border-style="solid" border-color="#cccccc" padding="20px 0" />
+
+         <mj-image width="50px"src="https://media.istockphoto.com/id/921956738/es/vector/entradas-del-vector.jpg?s=612x612&w=0&k=20&c=l6sn5r3QDmUwV_LaAAWDJgnjA84tvgIRdMN76kETO80=" alt="pp" />
+            <mj-text align="center" font-style="italic"
+                     font-size="25px"
+                     font-family="Helvetica Neue"
+                     font-weight="bold"
+                     color="#ff0000">¡SORTEO 2 ENTRADAS MOTO GP!
+            
+            </mj-text>
+
+            <mj-text align="center" color="#525252">
+                    Consigue entradas para acudir al
+                    GP de MOTO GP participando en el sorteo. Rellene el siguiente
+                    formulario para participar.
+            </mj-text>
+
+            <mj-button background-color="#F45E43"
+                     href="#">PARTICIPA AQUÍ
+            </mj-button>
+               <mj-divider border-width="1px" border-style="solid" border-color="#cccccc" padding="20px 0" />
+
+        </mj-column>
+    </mj-section>
+
+
+    <mj-section background-color="#ffffff"
+      border="3px solid  #ff0101 "
+      padding="20px"
+      border-radius="5px"
+      full-width="full-width"
+
+      >
+        <mj-column>
+
+
+
+        <mj-image width="600px"src="https://s7g10.scene7.com/is/image/ktm/Brad%20Binder_Red%20Bull%20KTM_MotoGP_RC16:Medium?wid=1838&hei=1379&dpr=off" alt="prb" />
+            
+        </mj-column>
+
+        <mj-column>
+         <mj-text font-style="italic"
+                     font-size="30px"
+                     font-family="Helvetica Neue"
+                     font-weight="bold"
+                     color="#626262">Acerca del Grand Prix de MOTO GP 
+            </mj-text>
+           <mj-divider border-width="1px" border-style="solid" border-color="#cccccc" padding="10px " />
+
+            <mj-text color="#525252">
+                El actual Gran Premio de MotoGP se está llevando a cabo en
+                una emocionante temporada, donde los mejores pilotos 
+                compiten por el título mundial. 
+            </mj-text>
+        </mj-column>
+
+
+
+
+    </mj-section>
+
+
+
+
+
+
+    </mj-body>
+
+
+
+</mjml>

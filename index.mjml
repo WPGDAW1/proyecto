@@ -1,0 +1,114 @@
+<mjml>
+  <mj-body>
+
+    <!-- Cabecera De compañia -->
+    <mj-section background-color="#f0f0f0">
+        <mj-column>
+            <mj-text align="center"
+                font-style="italic"
+                font-size="20px"
+                color="#c33434">
+                    NUESTRA COMPAÑIA
+            </mj-text> 
+        </mj-column>
+    </mj-section> 
+    
+
+    <!-- Cabecera de imagen -->
+    
+    <mj-section background-url="https://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg"
+            background-size="cover"
+            background-repeat="no-repeat">
+
+        <mj-column width="600px">
+            <mj-text align="center"
+                color="#fff"
+                font-size="40px"
+                font-family="Helvetica Neue">
+            Si quieres diversión, fira valencia!
+            </mj-text>
+
+            <mj-button background-color="#f63A4D"
+                       href="#">
+                OFERTA!
+            </mj-button>
+    </mj-column>
+    </mj-section>
+
+    <!-- Texto introductorio, sigue de imagen -->
+    <mj-section background-color="#fafafa">
+        <mj-column width="400px">
+            <mj-text font-style="italic"
+                     font-size="20px"
+                     font-family="Helvetica Neue"
+                     color="#626262">¡SORTEO 2 ENTRADAS MOTO GP!
+            </mj-text>
+
+            <mj-text color="#525252">
+                    Consigue entradas para acudir al
+                    GP de MOTO GP participando en el sorteo. Rellene el siguiente
+                    formulario para participar.
+            </mj-text>
+
+            <mj-button background-color="#F45E43"
+                     href="#">PARTICIPA AQUÍ
+            </mj-button>
+        </mj-column>
+    </mj-section>
+
+    <!-- Posición de imagen -->
+    <mj-section background-color="white">
+        <!-- imagen-->
+
+        <mj-column>
+            <mj-image width="200px" src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" alt="Prueba"/>
+
+        </mj-column>
+
+        <!-- Parrafo lado derecho -->
+
+        <mj-column>
+            <mj-text font-style="italic"
+                     font-size="20px"
+                     font-family="Helvetica Neue"
+                     color="#626262">Acerca del Grand Prix de MOTO GP 
+            </mj-text>
+
+            <mj-text color="#525252">
+                El actual Gran Premio de MotoGP se está llevando a cabo en
+                una emocionante temporada, donde los mejores pilotos 
+                compiten por el título mundial. Recientemente, se han 
+                destacado eventos como el GP de Francia, con actuaciones 
+                notables y una intensa lucha 
+                por los puntos en la clasificación.
+            </mj-text>
+
+        </mj-column>
+    </mj-section>
+
+    <!-- Icons -->
+    <mj-section background-color="#fbfbfb">
+        <mj-column>
+          <mj-image width="100px" src="https://191n.mj.am/img/191n/3s/x0l.png" />
+        </mj-column>
+
+        <mj-column>
+          <mj-image width="100px" src="https://191n.mj.am/img/191n/3s/x01.png" />
+        </mj-column>
+
+        <mj-column>
+          <mj-image width="100px" src="https://191n.mj.am/img/191n/3s/x0s.png" />
+        </mj-column>
+    </mj-section>
+    <!-- Social icons -->
+    <mj-section background-color="#e7e7e7">
+        <mj-column>
+            <mj-social>
+                <mj-social-element name="facebook">Share</mj-social-element>
+            </mj-social>
+        </mj-column>
+    </mj-section>
+
+
+  </mj-body>
+</mjml>
