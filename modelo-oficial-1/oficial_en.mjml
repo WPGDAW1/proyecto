@@ -1,8 +1,9 @@
+
 <mjml>
     <mj-head>
-        <mj-title>Guanya entrades per al GP de Xest</mj-title>
+        <mj-title>Win tickets for the Cheste GP</mj-title>
         <mj-preview>
-            Participa en el sorteig de dues entrades omplint el formulari abans de l'1 de setembre
+            Enter the draw for two tickets by completing the form before September 1st
         </mj-preview>
     <mj-style inline="inline">
         .btn-hover {
@@ -22,44 +23,44 @@
     </mj-head>
 
     <mj-body>
-      <mj-wrapper>  
+      <mj-wrapper> 
       <mj-section background-color="#FFFFFF" padding="0px">
             <mj-column padding="0px">
-                <mj-image src="https://res.cloudinary.com/dp7mwmzbm/image/upload/v1748011865/Cabecera_mail_2Ruedas_2024_expositores_dwxpa5.jpg" 
-                alt="Fira 2 Rodes" fluid-on-mobile="true" padding="0px" width="600px"/>
+                <mj-image src="https://res.cloudinary.com/dp7mwmzbm/image/upload/v1748011865/Cabecera_mail_2Ruedas_2024_expositores_dwxpa5.jpg"
+                alt="2 Wheels Fair" fluid-on-mobile="true" padding="0px" width="600px"/>
             </mj-column>
         </mj-section>
 
-        <!-- Sorteig -->
+        <!-- Giveaway -->
         <mj-section background-color="#ffffff">
             <mj-column>
                 <mj-text align="center" font-size="22px" font-weight="bold" color="#333333">
-                    Sorteigem 2 entrades per al GP de Motociclisme de Xest!
+                    We're giving away 2 tickets to the Cheste MotoGP!
                 </mj-text>
 
                 <mj-text align="center" font-size="16px" color="#555555">
-                    La Fira 2 Rodes i Fira València volen premiar la teua passió per les motos.
-                    Participa en el sorteig i viu l’emoció del MotoGP en directe.
+                    The 2 Wheels Fair and Feria Valencia want to reward your passion for motorcycles.
+                    Enter the giveaway and experience the thrill of MotoGP live.
                 </mj-text>
             </mj-column>
         </mj-section>
 
-        <!-- Info + botó -->
+        <!-- Info + button -->
         <mj-section background-color="#ffffff" padding="10px 20px">
             <mj-column>
                 <mj-divider border-color="#e60000" border-width="1px" />
 
                 <mj-text font-size="12px" color="#555555">
-                    Només has d’omplir el formulari d’inscripció abans de l’<strong>1 de setembre</strong>
-                    i entraràs en el sorteig de dues entrades dobles per al Gran Premi de Xest. Som-hi!
+                    Just fill in the registration form before <strong>September 1st</strong>
+                    and you'll be entered into the draw for two double tickets to the Cheste Grand Prix. Let’s go!
                 </mj-text>
                 <mj-button css-class="btn-hover" href="https://formulario-feria.com" align="center">
-                    Participa ara!
+                    Enter now!
                 </mj-button>
             </mj-column>
         </mj-section>
 
-        <!-- Imatge MotoGP + Info -->
+        <!-- MotoGP Image + Two-column Info -->
         <mj-section background-color="#ffffff" padding="20px">
             <mj-column width="50%">
                 <mj-image src="https://res.cloudinary.com/dp7mwmzbm/image/upload/v1748011884/Brad_Binder_Red_Bull_KTM_MotoGP_RC16_Medium_r3xt22.jpg" alt="" />
@@ -67,38 +68,39 @@
 
             <mj-column width="50%">
                 <mj-text font-size="16px" color="#333333">
-                    El Gran Premi de la Comunitat Valenciana a Xest és una de les últimes curses
-                    del mundial i un dels esdeveniments més esperats del motociclisme.
+                    The Grand Prix of the Valencian Community in Cheste is one of the final races
+                    of the world championship and one of the most anticipated motorcycle events.
                 </mj-text>
 
                 <mj-text font-size="14px" color="#777777">
-                    Data del sorteig: 2 de setembre de 2025 <br />
-                    Entrades vàlides per al diumenge de carrera <br />
-                    Participació gratuïta omplint el formulari.
+                    Draw date: September 2nd, 2025 <br />
+                    Tickets valid for race Sunday <br />
+                    Free participation by filling out the form.
                 </mj-text>
             </mj-column>
         </mj-section>
 
-        <!-- Peu elegant -->
+        <!-- Elegant Footer -->
         <mj-section background-color="#eeeeee" padding="5px">
             <mj-column>
                 <mj-divider border-color="#cccccc" />
                 <mj-text font-size="12px" align="center" color="#666666" >
-                    © 2025 Fira València - Tots els drets reservats
+                    © 2025 Feria Valencia – All rights reserved
                 </mj-text>
                 <mj-text align="center" font-size="12px" color="#666666">
                     <a href="https://feriavalencia.com" style="color:#e60000;">
-                    feriavalencia.com</a> | 
-                    <a href="https://feriavalencia.com/politica-privacidad" style="color:#e60000;">Política de privacitat</a>
-                    | <a href="https://feriavalencia.com/bases-sorteo" style="color:#e60000;">Bases del sorteig</a>                  
+                    feriavalencia.com</a> |
+                    <a href="https://feriavalencia.com/politica-privacidad" style="color:#e60000;">Privacy Policy</a>
+                    | <a href="https://feriavalencia.com/bases-sorteo" style="color:#e60000;">Giveaway Rules</a>                 
                 </mj-text>
-                <mj-social>               
+                <mj-social>              
                     <mj-social-element name="x" href="https://twitter.com/feria_valencia">
-                        Fira València
+                        Feria Valencia
                     </mj-social-element>
-                 </mj-social>
+                </mj-social>
             </mj-column>
         </mj-section>
       </mj-wrapper>
     </mj-body>
 </mjml>
+
