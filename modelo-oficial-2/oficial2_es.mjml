@@ -1,0 +1,190 @@
+<mjml>
+    <mj-head>
+    <mj-style inline="inline">
+        .sombra-box {
+            -webkit-box-shadow: 1px 4px 11px 0px rgba(0,0,0, 0.15);
+            -moz-box-shadow: 1px 4px 11px 0px rgba(0,0,0, 0.15);
+            box-shadow: 1px 4px 11px 0px rgba(0,0,0, 0.1);
+            background-color:rgb(143, 73, 73);
+            
+        }
+    </mj-style>
+
+        <mj-attributes>
+            <mj-text font-family="Helvetica, Arial, sans-serif"/>
+            <mj-button font-family="Helvetica, Arial, sans-serif" background-color="#e60000"
+            color="#FFFFFF" font-size="16px" border-radius="4px"/>
+        </mj-attributes>    
+    </mj-head>
+
+    <mj-body background-color="#ffffff">
+        <mj-wrapper>
+            
+        
+        <mj-section css-class="sombra-box" background-color="#f0f0f0" padding="0px">
+            <mj-column>
+                <mj-image width="550px" src="https://res.cloudinary.com/dp7mwmzbm/image/upload/v1748442682/Cabecera_Email_Expojove_2024_i2p2gm.jpg" alt="Logo Expojove" />
+                <mj-text font-size="20px" font-weight="bold" color="#333333">
+                    ¡Bienvenido/a a Expojove 2024-2025!
+                </mj-text>
+                <mj-text font-size="16px" color="#555555">
+                    Estimado/a {{nombre}},
+                </mj-text>
+                <mj-text font-size="16px" color="#555555">
+                    Nos complace contar con tu participación en la próxima edición
+                    de Expojove, que se celebrará del 26 de diciembre de 2024 al 4 de enero de 2025
+                    en Feria Valencia.
+                </mj-text>
+                <mj-text font-size="16px" color="#555555">
+                    Para facilitar tu preparación y maximizar tu presencia en el evento,
+                    ponemos a tu disposición una variedad de servicios que puedes solicitar
+                    a través de nuestro portal de expositor.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        </mj-wrapper>
+
+        <!-- Categoría 1 y 3 -->
+    <mj-section background-color="#ffffff" padding="5px" >
+      <mj-column>
+        <mj-divider border-color="#cccccc" />
+
+        <mj-text font-size="18px" font-weight="bold" color="#333333" padding-bottom="1px">
+          🛠️ Infraestructura técnica
+        </mj-text>
+        <mj-text font-size="16px" color="#555555" padding-top="1px" padding-bottom="1px">
+          <ul>
+            <li>Suministro eléctrico para iluminación y equipos</li>
+            <li>Conexión a Internet/Wi-Fi</li>
+            <li>Toma de agua para actividades específicas</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+
+      <mj-column>
+        <mj-divider border-color="#cccccc" />
+
+        <mj-text font-size="18px" font-weight="bold" color="#333333" padding-bottom="1px">
+          👷 Servicios logísticos
+        </mj-text>
+        <mj-text font-size="16px" color="#555555" padding-top="1px" padding-bottom="1px">
+          <ul>
+            <li>Almacenaje de materiales</li>
+            <li>Transporte interno de mercancía</li>
+            <li>Asistencia para montaje y desmontaje</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+
+      
+    </mj-section>
+   
+    <!-- Categoría 7 y 4-->
+    <mj-section background-color="#ffffff" padding="5px">
+
+      <mj-column>
+      <mj-divider border-color="#cccccc" />
+        <mj-text font-size="18px" font-weight="bold" color="#333333" padding-bottom="1px" >
+          🍽️ Catering y hospitalidad
+        </mj-text>
+        <mj-text font-size="16px" color="#555555" padding-top="1px" padding-bottom="1px" >
+          <ul>
+            <li>Servicio de catering o vending en el stand</li>
+            <li>Reserva de restaurantes o zonas VIP</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+
+      <mj-column>
+      <mj-divider border-color="#cccccc" />
+        <mj-text font-size="18px" font-weight="bold" color="#333333" padding-bottom="1px">
+          🧽 Limpieza y mantenimiento
+        </mj-text>
+        <mj-text font-size="16px" color="#555555" padding-top="1px" padding-bottom="1px">
+          <ul>
+            <li>Limpieza diaria del stand</li>
+            <li>Gestión de residuos</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Categoría 5 y 6 -->
+    <mj-section background-color="#ffffff" padding="5px">
+      <mj-column>
+      <mj-divider border-color="#cccccc" />
+        <mj-text font-size="18px" font-weight="bold" color="#333333" padding-bottom="1px">
+          📢 Publicidad y promoción
+        </mj-text>
+        <mj-text font-size="16px" color="#555555" padding-top="1px" padding-bottom="1px">
+          <ul>
+            <li>Inserción en el catálogo oficial</li>
+            <li>Publicidad dentro del recinto (pantallas, vinilos)</li>
+            <li>Rótulo personalizado para el stand</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+
+      <mj-column>
+      <mj-divider border-color="#cccccc" />
+        <mj-text font-size="18px" font-weight="bold" color="#333333" padding-bottom="1px">
+          🧑‍💼 Recursos humanos
+        </mj-text>
+        <mj-text font-size="16px" color="#555555" padding-top="1px" padding-bottom="1px">
+          <ul>
+            <li>Azafatas/os para atención al público</li>
+            <li>Intérpretes para expositores internacionales</li>
+            <li>Apoyo en control de acceso o seguridad privada</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <!-- Categoría 2 y 8 -->
+    <mj-section background-color="#ffffff" padding="5px">
+      
+
+      <mj-column>
+      <mj-divider border-color="#cccccc" />
+        <mj-text font-size="18px" font-weight="bold" color="#333333" padding-bottom="1px">
+          🎪 Montaje de stand y decoración
+        </mj-text>
+        <mj-text font-size="16px" color="#555555" padding-top="1px" padding-bottom="1px">
+          <ul>
+            <li>Stand modular estándar</li>
+            <li>Decoración personalizada y vinilos</li>
+            <li>Tarima y moqueta de color</li>
+            <li>Alquiler de mobiliario adicional</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+
+       <mj-column>
+       <mj-divider border-color="#cccccc" />
+        <mj-text font-size="18px" font-weight="bold" color="#333333" padding-bottom="1px">
+          🚨 Servicios complementarios
+        </mj-text>
+        <mj-text font-size="16px" color="#555555" padding-top="1px" padding-bottom="1px">
+          <ul>
+            <li>Asistencia sanitaria (botiquín)</li>
+            <li>Espacios para reuniones privadas</li>
+            <li>Asistencia técnica durante el evento</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Llamada a la acción -->
+    <mj-section background-color="#f0f0f0" padding="20px">
+      <mj-column>
+        <mj-button href="https://expositor.feriavalencia.com/" background-color="#007BFF" color="#ffffff">
+          Solicitar servicios en el Portal del Expositor
+        </mj-button>
+        <mj-text font-size="14px" color="#999999">
+          Recuerda acceder con tus credenciales. Para asistencia, contacta con <a href="mailto:centraldeservicios@feriavalencia.com">centraldeservicios@feriavalencia.com</a>. Correo enviado a {{email}}.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    </mj-body>
+<mjml>
