@@ -1,0 +1,183 @@
+<mjml>
+<mj-head>
+<mj-style inline="inline">
+.sombra-box {
+-webkit-box-shadow: 1px 4px 11px 0px rgba(0,0,0, 0.15);
+-moz-box-shadow: 1px 4px 11px 0px rgba(0,0,0, 0.15);
+box-shadow: 1px 4px 11px 0px rgba(0,0,0, 0.1);
+background-color:rgb(143, 73, 73);
+}
+</mj-style>
+
+<mj-attributes>
+<mj-text font-family="Helvetica, Arial, sans-serif"/>
+<mj-button font-family="Helvetica, Arial, sans-serif" background-color="#e60000"
+color="#FFFFFF" font-size="16px" border-radius="4px"/>
+</mj-attributes>
+</mj-head>
+
+<mj-body background-color="#ffffff">
+<mj-wrapper>
+<mj-section css-class="sombra-box" background-color="#f0f0f0" padding="0px">
+<mj-column>
+<mj-image width="550px" src="https://res.cloudinary.com/dp7mwmzbm/image/upload/v1748442682/Cabecera_Email_Expojove_2024_i2p2gm.jpg" alt="Logo Expojove" />
+<mj-text font-size="20px" font-weight="bold" color="#333333">
+Benvingut/uda a Expojove 2024–2025!
+</mj-text>
+<mj-text font-size="16px" color="#555555">
+Estimad@ {{nombre}},
+</mj-text>
+<mj-text font-size="16px" color="#555555">
+Ens complau comptar amb la teua participació en l’edició pròxima
+d’Expojove, que se celebrarà del 26 de desembre de 2024 al 4 de gener de 2025
+a Fira València.
+</mj-text>
+<mj-text font-size="16px" color="#555555">
+Per facilitar la teua preparació i maximitzar la teua presència en l’esdeveniment,
+posem a la teua disposició una varietat de serveis que pots sol·licitar
+a través del nostre portal d’expositor.
+</mj-text>
+</mj-column>
+</mj-section>
+</mj-wrapper>
+
+<!-- Categoria 1 i 3 -->
+<mj-section background-color="#ffffff" padding="5px" >
+<mj-column>
+<mj-divider border-color="#cccccc" />
+
+<mj-text font-size="18px" font-weight="bold" color="#333333" padding-bottom="1px">
+🛠️ Infraestructura tècnica
+</mj-text>
+<mj-text font-size="16px" color="#555555" padding-top="1px" padding-bottom="1px">
+<ul>
+<li>Suministre elèctric per a il·luminació i equips</li>
+<li>Connexió a Internet/Wi-Fi</li>
+<li>Preses d’aigua per a activitats específiques</li>
+</ul>
+</mj-text>
+</mj-column>
+
+<mj-column>
+<mj-divider border-color="#cccccc" />
+
+<mj-text font-size="18px" font-weight="bold" color="#333333" padding-bottom="1px">
+👷 Serveis logístics
+</mj-text>
+<mj-text font-size="16px" color="#555555" padding-top="1px" padding-bottom="1px">
+<ul>
+<li>Emmagatzematge de materials</li>
+<li>Transport intern de mercaderies</li>
+<li>Assistència per a muntatge i desmuntatge</li>
+</ul>
+</mj-text>
+</mj-column>
+
+</mj-section>
+<!-- Categoria 7 i 4 -->
+<mj-section background-color="#ffffff" padding="5px">
+
+<mj-column>
+<mj-divider border-color="#cccccc" />
+<mj-text font-size="18px" font-weight="bold" color="#333333" padding-bottom="1px" >
+🍽️ Catering i hospitalitat
+</mj-text>
+<mj-text font-size="16px" color="#555555" padding-top="1px" padding-bottom="1px" >
+<ul>
+<li>Servei de catering o vending en l’estand</li>
+<li>Reserva de restaurants o zones VIP</li>
+</ul>
+</mj-text>
+</mj-column>
+
+<mj-column>
+<mj-divider border-color="#cccccc" />
+<mj-text font-size="18px" font-weight="bold" color="#333333" padding-bottom="1px">
+🧽 Neteja i manteniment
+</mj-text>
+<mj-text font-size="16px" color="#555555" padding-top="1px" padding-bottom="1px">
+<ul>
+<li>Neteja diària de l’estand</li>
+<li>Gestió de residus</li>
+</ul>
+</mj-text>
+</mj-column>
+</mj-section>
+
+<!-- Categoria 5 i 6 -->
+<mj-section background-color="#ffffff" padding="5px">
+<mj-column>
+<mj-divider border-color="#cccccc" />
+<mj-text font-size="18px" font-weight="bold" color="#333333" padding-bottom="1px">
+📢 Publicitat i promoció
+</mj-text>
+<mj-text font-size="16px" color="#555555" padding-top="1px" padding-bottom="1px">
+<ul>
+<li>Inserció en el catàleg oficial</li>
+<li>Publicitat dins del recinte (pantalles, vinils)</li>
+<li>Ròtul personalitzat per a l’estand</li>
+</ul>
+</mj-text>
+</mj-column>
+
+<mj-column>
+<mj-divider border-color="#cccccc" />
+<mj-text font-size="18px" font-weight="bold" color="#333333" padding-bottom="1px">
+🧑‍💼 Recursos humans
+</mj-text>
+<mj-text font-size="16px" color="#555555" padding-top="1px" padding-bottom="1px">
+<ul>
+<li>Hostesses/hosts per a atenció al públic</li>
+<li>Intèrprets per a expositors internacionals</li>
+<li>Suport en control d’accés o seguretat privada</li>
+</ul>
+</mj-text>
+</mj-column>
+</mj-section>
+
+<!-- Categoria 2 i 8 -->
+<mj-section background-color="#ffffff" padding="5px">
+
+<mj-column>
+<mj-divider border-color="#cccccc" />
+<mj-text font-size="18px" font-weight="bold" color="#333333" padding-bottom="1px">
+🎪 Muntatge d’estand i decoració
+</mj-text>
+<mj-text font-size="16px" color="#555555" padding-top="1px" padding-bottom="1px">
+<ul>
+<li>Estand modular estàndard</li>
+<li>Decoració personalitzada i vinils</li>
+<li>Tarima i moqueta de color</li>
+<li>Lloguer de mobiliari addicional</li>
+</ul>
+</mj-text>
+</mj-column>
+
+<mj-column>
+<mj-divider border-color="#cccccc" />
+<mj-text font-size="18px" font-weight="bold" color="#333333" padding-bottom="1px">
+🚨 Serveis complementaris
+</mj-text>
+<mj-text font-size="16px" color="#555555" padding-top="1px" padding-bottom="1px">
+<ul>
+<li>Assistència sanitària (farmaciola)</li>
+<li>Espais per a reunions privades</li>
+<li>Assistència tècnica durant l’esdeveniment</li>
+</ul>
+</mj-text>
+</mj-column>
+</mj-section>
+
+<!-- Crida a l’acció -->
+<mj-section background-color="#f0f0f0" padding="20px">
+<mj-column>
+<mj-button href="https://expositor.feriavalencia.com/" background-color="#007BFF" color="#ffffff">
+Sol·licita serveis al Portal de l’Expositor
+</mj-button>
+<mj-text font-size="14px" color="#999999">
+Recorda accedir amb les teues credencials. Per a assistència, contacta amb <a href="mailto:centraldeservicios@feriavalencia.com">centraldeservicios@feriavalencia.com</a>. Correu enviat a {{email}}.
+</mj-text>
+</mj-column>
+</mj-section>
+</mj-body>
+</mjml>
