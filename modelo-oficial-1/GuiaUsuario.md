@@ -3,7 +3,7 @@
 
 ## PASOS
 
-1. Descargar de la carpeta, **FeriaValencia.sql** para crear la base de datos.
+1. Descargar de la carpeta, **FeriaValencia.sql** para crear la base de datos y los modelos oficial_... para cargar los archivos mjml.
 
     - Una vez descargado, agrega su código a un sistema gestor de base de datos compatible con mysql y ejecuta el código.
 
