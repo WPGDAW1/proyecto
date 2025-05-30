@@ -4,12 +4,13 @@
 ## PASOS
 
 1. Descargar de la carpeta, **FeriaValencia.sql** para crear la base de datos y todos los modelos oficial_.. para luego cargar sus mjml.
-
+    - ACLARACIÓN: Si quieres realizar esta prueba con otra base de datos, revise luego el archivo js para actualizar las consultas.
+      
     - Una vez descargado, agrega su código a un sistema gestor de base de datos compatible con mysql y ejecuta el código.
 
-2. Una vez implementado la base de datos, **descarga "expositores.csv" y "enviabbdd2.java"**.
-3. Actualiza **expositores.csv** Modificando/Agregando nombres de usuario y sus datos correspondientes. Siempre que agregues un suscriptor, el **campo correspondiente suscrito** debe aparecer como 1 en cada registro dentro del csv.
-4. Una vez actualizado, descarga las dependencias de bbdd **mysql-connector-j-9.2.0.jar** y agregalo a la misma carpeta que el resto de archivos. Dicho esto, pasemos al envío de usuarios que agregaste en el archivo **expositores.csv**
+3. Una vez implementado la base de datos, **descarga "expositores.csv" y "enviabbdd2.java"**.
+4. Actualiza **expositores.csv** Modificando/Agregando nombres de usuario y sus datos correspondientes. Siempre que agregues un suscriptor, el **campo correspondiente suscrito** debe aparecer como 1 en cada registro dentro del csv.
+5. Una vez actualizado, descarga las dependencias de bbdd **mysql-connector-j-9.2.0.jar** y agregalo a la misma carpeta que el resto de archivos. Dicho esto, pasemos al envío de usuarios que agregaste en el archivo **expositores.csv**. **OJO**, asegurate en el archivo enviabbdd.java, en caso de no usar mi base de datos, a qué base de datos estas llamando.
 
     - Para compilar el archivo enviabbdd.java usando la libreria del archivo .jar:
     ```
@@ -24,7 +25,7 @@
         Se agregaron 10 registros correctamente
     ```
 
-5. Una vez entregado a la base de datos todos los usuarios con sus correos y sus datos necesarios, pasaremos al envío de correo para comprobar si de verdad enviamos correos a los usuarios finales. **Pero antes, debemos realizar 4 pasos importantes**
+6. Una vez entregado a la base de datos todos los usuarios con sus correos y sus datos necesarios, pasaremos al envío de correo para comprobar si de verdad enviamos correos a los usuarios finales. **Pero antes, debemos realizar 4 pasos importantes**
     - Descargar el archivo sendyregistro2.js y enviarlo a la misma carpeta
     - Descargar el archivo .env y enviarlo a la misma carpeta. En este archivo se asignarán las credenciales de usuario para enviar el correo y las credenciales de la base de datos a la que conectaremos para volcar correos de usuarios y enviar el mail
     
@@ -37,7 +38,7 @@
             npm install mjml nodemailer dotenv mysql2 
         ```
 
-6. Una vez configurado e instalado, podremos realizar pruebas de envío de correo ejecutando el archivo js:
+7. Una vez configurado e instalado, podremos realizar pruebas de envío de correo ejecutando el archivo js:
     ```
         node sendyregistro2.js
     ```
